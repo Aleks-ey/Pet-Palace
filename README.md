@@ -2,6 +2,8 @@
 
 Template repository for Vite+React web apps that utilize my custom dynamic-app-builder package.
 
+ * Note: vercel.json is necessary for multiple home path rewrites to work. For example, " ", "/", and "/home" all go to same page.
+
 # Customize the Template
 Currently, consts are used to create the configs for the components. JSON will be possible eventually. With the goal of creating all pages based off JSON files that are stored in a database.
 
