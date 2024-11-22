@@ -1,5 +1,5 @@
 const logo = {
-  src: "src/assets/logos/react.svg",
+  src: "/logos/react.svg",
   alt: "Pet Palace Vet Clinic",
   logoStyle: {
     height: "max-w-fit h-20 lg:h-24 w-auto",
@@ -47,7 +47,7 @@ const navLinksStyle = {
 };
 
 const drawerLogo = {
-  src: "src/assets/logos/react.svg",
+  src: "/logos/react.svg",
   alt: "Pet Palace Vet Clinic",
   logoStyle: {
     height: "h-24 w-auto",

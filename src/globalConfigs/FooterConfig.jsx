@@ -9,7 +9,7 @@ const footerConfig = {
     },
     slogo: {
       logo: {
-        src: "src/assets/logos/react.svg",
+        src: "/logos/react.svg",
         alt: "Company/Website Logo",
         logoStyle: {
           className: "h-24 md:h-32 w-auto",

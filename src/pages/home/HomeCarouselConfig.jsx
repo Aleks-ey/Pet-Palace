@@ -137,13 +137,13 @@ const homeCarouselConfig = {
   props: {
     backgrounds: [
       {
-        src: "src/assets/images/vet&cat.jpg",
+        src: "/images/vet&cat.jpg",
         customStyle: {
           objectFit: "object-cover",
         },
       },
       {
-        src: "src/assets/images/vet&dog.jpg",
+        src: "/images/vet&dog.jpg",
         customStyle: {
           objectFit: "object-cover",
         },
