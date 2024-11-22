@@ -7,8 +7,8 @@ import headerConfig from "./globalConfigs/HeaderConfig";
 import footerConfig from "./globalConfigs/FooterConfig";
 
 // import pages
-import Home from "./pages/Home";
-import Contact from "./pages/About";
+import Home from "./pages//home/Home";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   // header and footer configs should be made here or imported from a file, default configs are imported from globalConfigs folder

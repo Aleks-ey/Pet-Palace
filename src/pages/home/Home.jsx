@@ -1,4 +1,5 @@
 import { AppBuilder } from "@aleks-ey/dynamic-app-builder";
+import homeCarouselConfig from "./HomeCarouselConfig";
 
 const Home = () => {
   const homeConfig = {
@@ -17,7 +18,7 @@ const Home = () => {
         props: {
           style: {
             height: "h-screen",
-            padding: "pt-32",
+            padding: "",
           },
         },
         children: [
@@ -25,18 +26,10 @@ const Home = () => {
             type: "ElementComponent",
             props: {
               style: {
-                className:
-                  "justify-center items-center text-center font-florisha text-5xl",
+                className: "opacity-80",
               },
             },
-            children: [
-              {
-                type: "TextComponent",
-                props: {
-                  text: "Hello World",
-                },
-              },
-            ],
+            children: [homeCarouselConfig],
           },
         ],
       },

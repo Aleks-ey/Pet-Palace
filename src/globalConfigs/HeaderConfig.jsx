@@ -1,19 +1,19 @@
 const logo = {
-  src: "src/assets/react.svg",
-  alt: "Company/Website Logo",
+  src: "src/assets/logos/react.svg",
+  alt: "Pet Palace Vet Clinic",
   logoStyle: {
-    height: "h-20 lg:h-20 w-auto",
+    height: "max-w-fit h-20 lg:h-24 w-auto",
     objectFit: "object-cover",
   },
 };
 
 const identity = {
-  name: "Company/Website Name",
+  name: "Pet Palace",
   nameStyle: {
     font: "font-montserrat",
     fontSize: "text-3xl",
   },
-  slogan: "Company/Website Slogan",
+  slogan: "Vet Clinic",
   sloganStyle: {
     font: "font-montserrat",
     fontSize: "text-3xl",
@@ -21,22 +21,22 @@ const identity = {
 };
 
 const navLinks = [
-  { text: "Link1", link: "/" },
-  { text: "Link2", link: "/" },
-  { text: "Link3", link: "/" },
-  { text: "Link4", link: "/" },
-  { text: "Contact", link: "/" },
+  { text: "Appointments", link: "/" },
+  { text: "Location", link: "/" },
+  { text: "Services", link: "/" },
+  { text: "About Us", link: "/" },
+  { text: "Contact", link: "/contact" },
 ];
 
 const linkStyle = {
   font: "font-montserrat",
   fontSize: "text-lg",
   backgroundColor: "bg-transparent",
-  color: "text-black",
+  color: "text-white",
   padding: "px-2 lg:px-5 py-2",
   border: "border-transparent",
-  hoverColors: "hover:text-main hover:border-b hover:border-b-main",
-  activeColors: "active:text-main active:border-main",
+  hoverColors: "hover:text-blue-500 hover:border-b hover:border-b-blue-500",
+  activeColors: "active:text-blue-500 active:border-blue-500",
   focusStyle: "focus:outline-none",
 };
 
@@ -47,8 +47,8 @@ const navLinksStyle = {
 };
 
 const drawerLogo = {
-  src: "src/assets/react.svg",
-  alt: "Company/Website Logo",
+  src: "src/assets/logos/react.svg",
+  alt: "Pet Palace Vet Clinic",
   logoStyle: {
     height: "h-24 w-auto",
     objectFit: "object-cover",
@@ -64,8 +64,8 @@ const drawerLinksStyle = {
   color: "text-accent",
   padding: "px-5 py-2",
   border: "border-transparent",
-  hoverColors: "hover:text-main hover:border-b hover:border-b-main",
-  activeColors: "active:text-main active:border-main",
+  hoverColors: "hover:text-blue-500 hover:border-b hover:border-b-blue-500",
+  activeColors: "active:text-blue-500 active:border-blue-500",
   focusStyle: "focus:outline-none",
 };
 
@@ -90,15 +90,15 @@ const headerConfig = {
   type: "HeaderComponent",
   props: {
     style: {
-      backgroundColor: "bg-gray-400",
+      backgroundColor: "bg-transparent",
       textColor: "text-white",
     },
     slogoProps: {
       logo: logo,
       identity: identity,
       style: {
-        textColor: "text-black",
-        space: "space-x-2",
+        textColor: "text-white font-bold",
+        space: "space-x-4",
       },
     },
     navLinks: {

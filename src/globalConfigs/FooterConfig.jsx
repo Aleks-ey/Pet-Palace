@@ -9,7 +9,7 @@ const footerConfig = {
     },
     slogo: {
       logo: {
-        src: "src/assets/react.svg",
+        src: "src/assets/logos/react.svg",
         alt: "Company/Website Logo",
         logoStyle: {
           className: "h-24 md:h-32 w-auto",
@@ -18,11 +18,11 @@ const footerConfig = {
     },
     navLinks: {
       links: [
-        { text: "Link1", link: "/" },
-        { text: "Link2", link: "/" },
-        { text: "Link3", link: "/" },
-        { text: "Link4", link: "/" },
-        { text: "Contact", link: "/" },
+        { text: "Appointments", link: "/" },
+        { text: "Location", link: "/" },
+        { text: "Services", link: "/" },
+        { text: "About Us", link: "/" },
+        { text: "Contact", link: "/contact" },
       ],
       linkStyle: {
         font: "font-montserrat",
@@ -31,13 +31,14 @@ const footerConfig = {
         color: "text-white",
         padding: "px-2 py-2",
         border: "border-transparent",
-        hoverColors: "hover:text-main hover:border-b hover:border-b-main",
-        activeColors: "active:text-main active:border-main",
+        hoverColors:
+          "hover:text-blue-500 hover:border-b hover:border-b-blue-500",
+        activeColors: "active:text-blue-500 active:border-blue-500",
         focusStyle: "focus:outline-none",
       },
       style: {
         display:
-          "flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-2",
+          "flex flex-col text-center md:flex-row space-y-4 md:space-y-0 md:space-x-2",
       },
     },
     contactInfo: {

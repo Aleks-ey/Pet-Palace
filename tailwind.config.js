@@ -21,6 +21,7 @@ export default {
         "base-light": "#E2E2E2",
         main: "#AF0404",
         accent: "#141313",
+        "sky-blue": "#61dbfb",
       },
       fontFamily: {
         florisha: ["florishaBold"],

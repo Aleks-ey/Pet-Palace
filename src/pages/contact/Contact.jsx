@@ -7,18 +7,27 @@ const Contact = () => {
       label: "Name",
       tag: "input",
       props: { type: "text", required: true },
+      inputStyle: {
+        className: "bg-white text-black",
+      },
     },
     {
       name: "email",
       label: "Email",
       tag: "input",
       props: { type: "text", required: true },
+      inputStyle: {
+        className: "bg-white text-black",
+      },
     },
     {
       name: "message",
       label: "Message",
       tag: "textarea",
       props: { required: true },
+      inputStyle: {
+        className: "bg-white text-black",
+      },
     },
   ];
 
@@ -26,7 +35,7 @@ const Contact = () => {
     type: "ElementComponent",
     props: {
       style: {
-        backgroundColor: "bg-white",
+        backgroundColor: "bg-base-light bg-opacity-90",
         color: "text-white",
         height: "min-h-screen",
         width: "w-full",
@@ -38,7 +47,7 @@ const Contact = () => {
         props: {
           style: {
             height: "h-screen",
-            padding: "pt-32",
+            padding: "content-center",
           },
         },
         children: [
@@ -80,10 +89,11 @@ const Contact = () => {
                     type: "submit",
                     text: "Send Message",
                     style: {
-                      backgroundColor: "bg-white md:bg-main border-main",
+                      backgroundColor:
+                        "bg-white md:bg-blue-500 border-blue-500",
                       hoverColors:
-                        "hover:bg-white hover:text-main hover:border-main",
-                      color: "text-main md:text-white",
+                        "hover:bg-white hover:text-blue-500 hover:border-blue-500",
+                      color: "text-blue-500 md:text-white",
                       textAlign: "text-center",
                       fontSize: "text-lg",
                       font: "font-montserrat",

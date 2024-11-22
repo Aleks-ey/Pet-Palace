@@ -23,7 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# Tokens and keys *Add .npmrc to the list after you've added your personal access token*
+# Tokens and keys
 .env
 .env.local
 .env.development.local

@@ -12,7 +12,7 @@ Before ceating custom pages, some essential changes should be made
 2. `.npmrc`
    - YOUR_PERSONAL_ACCESS_TOKEN should be replaced with the current personal access token (classic)
    - If environmental variables are being used for the personal access token, replace YOUR_PERSONAL_ACCESS_TOKEN with: ${ENVIRONMENT_VARIABLE_NAME_FOR_ACCESS_TOKEN}
-3. Add `.npmrc` to the `.gitignore` file.
+3. Create `.env` file if you choose to use environment variables and add the access token to your `.env`.
 4. `package.json` the `name` field should be changed to the desired name of the project.
 
 ## Pre-Made Configs
